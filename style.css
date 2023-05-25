@@ -17,6 +17,12 @@ header img, #header-text{
     margin-left: 0;
     margin-right: 0;
 }
+.dotted-line{
+    margin-top: 20px;
+    height: 10px;
+    background-image: url("images/hr-img.png"); 
+    background-repeat: repeat;
+}
 h2 {
 font-family: 'Yellowtail', cursive;
 margin-bottom: 0px;
@@ -50,8 +56,11 @@ font-size: 11px;
 font-style: oblique;
 margin-top: 0px;
 }
+#header2{
+    margin-top: 50px;
+}
 #paragraph{
-    padding: 15px;
+    padding: 10px;
     text-indent: 30px;
 }
 .checklist {
@@ -74,8 +83,8 @@ ul{
     padding: 15px;
 }
 button{
-    height: 50px;
-    width: 200px;
+    height: 40px;
+    width: 225px;
     font-family: 'Kanit', sans-serif;
     background-color: rgb(197, 101, 38);
     color: white;
